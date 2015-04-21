@@ -3,13 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATLAS", "ATLAS.csproj", "{AE4E1E05-F0FC-4AA5-8ADD-261474AAEFBD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{05C8E345-3EFE-4658-8048-439F94538AD6} = {05C8E345-3EFE-4658-8048-439F94538AD6}
-		{4FF5C0B6-0110-49DB-9BC8-86D32EEF6306} = {4FF5C0B6-0110-49DB-9BC8-86D32EEF6306}
-		{E7D118D6-E4B0-4D34-BBD9-635D58D6EC87} = {E7D118D6-E4B0-4D34-BBD9-635D58D6EC87}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControls", "..\..\..\..\..\Code\WebForm\WindowsFormsApplication1\WindowsFormsApplication1\WebControls.csproj", "{E7D118D6-E4B0-4D34-BBD9-635D58D6EC87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "..\..\..\..\..\Code\WebForm\WindowsFormsApplication1\WebApplication1\WebSite.csproj", "{4FF5C0B6-0110-49DB-9BC8-86D32EEF6306}"
@@ -23,16 +16,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A72BE5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob", "..\..\..\..\..\Code\WebForm\WindowsFormsApplication1\WebJob\WebJob.csproj", "{05C8E345-3EFE-4658-8048-439F94538AD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zephyr", "..\Zephyr\Zephyr.csproj", "{B82A503F-88BC-4FB0-8B32-5ED45F64FCC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE4E1E05-F0FC-4AA5-8ADD-261474AAEFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE4E1E05-F0FC-4AA5-8ADD-261474AAEFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE4E1E05-F0FC-4AA5-8ADD-261474AAEFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE4E1E05-F0FC-4AA5-8ADD-261474AAEFBD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7D118D6-E4B0-4D34-BBD9-635D58D6EC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7D118D6-E4B0-4D34-BBD9-635D58D6EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D118D6-E4B0-4D34-BBD9-635D58D6EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +36,10 @@ Global
 		{05C8E345-3EFE-4658-8048-439F94538AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C8E345-3EFE-4658-8048-439F94538AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C8E345-3EFE-4658-8048-439F94538AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82A503F-88BC-4FB0-8B32-5ED45F64FCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82A503F-88BC-4FB0-8B32-5ED45F64FCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82A503F-88BC-4FB0-8B32-5ED45F64FCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82A503F-88BC-4FB0-8B32-5ED45F64FCC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
