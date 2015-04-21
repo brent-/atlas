@@ -50,3 +50,5 @@ C:\Code\WebForm\ATLAS\ATLAS\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Code\WebForm\ATLAS\ATLAS\obj\Debug\ATLAS.csprojResolveAssemblyReference.cache
 C:\Code\WebForm\ATLAS\ATLAS\obj\Debug\ATLAS.dll
 C:\Code\WebForm\ATLAS\ATLAS\obj\Debug\ATLAS.pdb
+C:\Users\Brent\Documents\GitHub\New folder\obj\Debug\ATLAS.csprojResolveAssemblyReference.cache
+C:\Users\Brent\Documents\GitHub\New folder\obj\Debug\ATLAS.csprojFakesResolveAssemblyReference.cache
